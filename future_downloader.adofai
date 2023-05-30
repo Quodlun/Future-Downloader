@@ -79,7 +79,7 @@
 	},
 	"actions":
 	[
-		{ "floor": 0, "eventType": "SetFilter", "active": false, "filter": "Handheld", "enabled": "Enabled", "intensity": 100, "duration": 0, "ease": "Linear", "disableOthers": "Disabled", "angleOffset": 0, "eventTag": "" },
+		{ "floor": 0, "eventType": "SetFilter", "active": false, "filter": "Tunnel", "enabled": "Enabled", "intensity": 100, "duration": 0, "ease": "Linear", "disableOthers": "Disabled", "angleOffset": 0, "eventTag": "" },
 		{ "floor": 1, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 112.5, "bpmMultiplier": 0.25, "angleOffset": 0 },
 		{ "floor": 1, "eventType": "Flash", "duration": 1, "plane": "Background", "startColor": "ffffff", "startOpacity": 100, "endColor": "ffffff", "endOpacity": 0, "angleOffset": 0, "ease": "Linear", "eventTag": "" },
 		{ "floor": 1, "eventType": "MoveCamera", "duration": 0, "relativeTo": "Global", "position": [19, 10], "zoom": 130, "angleOffset": 0, "ease": "OutSine", "eventTag": "", },
