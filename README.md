@@ -8,8 +8,6 @@ Level files backup
 <p>Offset: 1000</p>
 <p>Author: Saiki</p>
 
----
-
 ## Links:
 <p> This levels is not upload yet.
 <p> Link will be here after I finish it and upload.
