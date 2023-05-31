@@ -1,5 +1,5 @@
 ﻿{
-	"angleData": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 90, 180, 999, 270, 0], 
+	"angleData": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
 	"settings":
 	{
 		"version": 13 ,
@@ -21,7 +21,7 @@
 		"difficulty": 1, 
 		"requiredMods": [],
 		"songFilename": "audio.ogg", 
-		"bpm": 450, 
+		"bpm": 225, 
 		"volume": 100, 
 		"offset": 1000, 
 		"pitch": 100, 
@@ -80,15 +80,11 @@
 	"actions":
 	[
 		{ "floor": 0, "eventType": "SetFilter", "active": false, "filter": "Tunnel", "enabled": "Enabled", "intensity": 100, "duration": 0, "ease": "Linear", "disableOthers": "Disabled", "angleOffset": 0, "eventTag": "" },
-		{ "floor": 1, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 112.5, "bpmMultiplier": 0.25, "angleOffset": 0 },
+		{ "floor": 1, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 112.5, "bpmMultiplier": 0.5, "angleOffset": 0 },
 		{ "floor": 1, "eventType": "Flash", "duration": 1, "plane": "Background", "startColor": "ffffff", "startOpacity": 100, "endColor": "ffffff", "endOpacity": 0, "angleOffset": 0, "ease": "Linear", "eventTag": "" },
-		{ "floor": 1, "eventType": "MoveCamera", "duration": 0, "relativeTo": "Global", "position": [19, 10], "zoom": 130, "angleOffset": 0, "ease": "OutSine", "eventTag": "", },
 		{ "floor": 2, "eventType": "PositionTrack", "positionOffset": [10, 10], "relativeTo": [0, "ThisTile"], "rotation": 0, "scale": 100, "opacity": 100, "justThisTile": "Disabled", "editorOnly": "Disabled", },
-		{ "floor": 17, "eventType": "Flash", "duration": 1, "plane": "Background", "startColor": "ffffff", "startOpacity": 100, "endColor": "ffffff", "endOpacity": 0, "angleOffset": 0, "ease": "Linear", "eventTag": "" },
-		{ "floor": 17, "eventType": "MoveCamera", "duration": 1, "relativeTo": "Player", "zoom": 150, "angleOffset": 0, "ease": "Linear", "eventTag": "", },
-		{ "floor": 17, "eventType": "PositionTrack", "positionOffset": [10, -10], "relativeTo": [0, "ThisTile"], "rotation": 0, "scale": 100, "opacity": 100, "justThisTile": "Disabled", "editorOnly": "Disabled", },
-		{ "floor": 19, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 2, "angleOffset": 0 },
-		{ "floor": 21, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 0.5, "angleOffset": 0 }
+		{ "floor": 2, "eventType": "MoveCamera", "duration": 0, "relativeTo": "Global", "position": [19, 10], "zoom": 130, "angleOffset": 0, "ease": "Linear", "eventTag": "", },
+		{ "floor": 2, "eventType": "SetPlanetRotation", "ease": "Linear", "easeParts": 1, "easePartBehavior": "Mirror" }
 	],
 	"decorations":
 	[
