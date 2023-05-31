@@ -80,14 +80,17 @@
 	"actions":
 	[
 		{ "floor": 0, "eventType": "MoveCamera", "duration": 1, "position": [0.5, null], "zoom": 100, "angleOffset": 0, "ease": "Linear", "eventTag": "", },
+		{ "floor": 0, "eventType": "SetFilter", "filter": "Compression", "enabled": "Enabled", "intensity": 100, "duration": 0, "ease": "Linear", "disableOthers": "Disabled", "angleOffset": 180, "eventTag": "" },
+		{ "floor": 0, "eventType": "SetFilter", "filter": "VHS", "enabled": "Enabled", "intensity": 30, "duration": 0, "ease": "Linear", "disableOthers": "Disabled", "angleOffset": 0, "eventTag": "" },
+		{ "floor": 0, "eventType": "Flash", "duration": 0, "plane": "Background", "startColor": "000000ff", "startOpacity": 100, "endColor": "000000ff", "endOpacity": 0, "angleOffset": 0, "ease": "Linear", "eventTag": "" },
 		{ "floor": 1, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 112.5, "bpmMultiplier": 0.5, "angleOffset": 0 },
-		{ "floor": 1, "eventType": "Flash", "duration": 1, "plane": "Background", "startColor": "ffffff", "startOpacity": 100, "endColor": "ffffff", "endOpacity": 0, "angleOffset": 0, "ease": "Linear", "eventTag": "" },
 		{ "floor": 1, "eventType": "MoveCamera", "duration": 1, "relativeTo": "Global", "position": [15, 10], "zoom": 75, "angleOffset": 0, "ease": "Linear", "eventTag": "", },
+		{ "floor": 1, "eventType": "Flash", "duration": 16, "plane": "Foreground", "startColor": "000000ff", "startOpacity": 100, "endColor": "000000ff", "endOpacity": 0, "angleOffset": 0, "ease": "Linear", "eventTag": "" },
 		{ "floor": 2, "eventType": "PositionTrack", "positionOffset": [10, 10], "relativeTo": [0, "ThisTile"], "rotation": 0, "scale": 100, "opacity": 100, "justThisTile": "Disabled", "editorOnly": "Disabled", },
 		{ "floor": 2, "eventType": "SetPlanetRotation", "ease": "Linear", "easeParts": 1, "easePartBehavior": "Mirror" },
 		{ "floor": 8, "eventType": "MoveCamera", "duration": 1, "position": [32.5, 0], "zoom": 75, "angleOffset": 0, "ease": "Linear", "eventTag": "", },
 		{ "floor": 9, "eventType": "PositionTrack", "positionOffset": [10, -10], "relativeTo": [0, "ThisTile"], "rotation": 0, "scale": 100, "opacity": 100, "justThisTile": "Disabled", "editorOnly": "Disabled", },
-		{ "floor": 16, "eventType": "Flash", "duration": 1, "plane": "Background", "startColor": "ffffff", "startOpacity": 100, "endColor": "ffffff", "endOpacity": 0, "angleOffset": 0, "ease": "Linear", "eventTag": "" },
+		{ "floor": 16, "eventType": "MoveCamera", "duration": 1, "relativeTo": "Global", "position": [50, 10], "zoom": 100, "angleOffset": 0, "ease": "Linear", "eventTag": "", },
 		{ "floor": 17, "eventType": "PositionTrack", "positionOffset": [10, 10], "relativeTo": [0, "ThisTile"], "rotation": 0, "scale": 100, "opacity": 100, "justThisTile": "Disabled", "editorOnly": "Disabled", }
 	],
 	"decorations":
